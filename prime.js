@@ -1,11 +1,11 @@
 
 function prime (num) {
-    let counter=0;
+    let count=0;
     for(let i=1;i<=num;i++){
         if(num%i=0){
-            counter++;
+            count++;
         }
-    }if(counter==2){
+    }if(count==2){
         return true;
     }
     return false;
