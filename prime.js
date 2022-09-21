@@ -12,8 +12,8 @@ function prime (num) {
 }
 
 let answer = prime (13);
-if (answer = true) {
-    console.log("The number is Prime");
+if (answer == true) {
+    console.log("Prime");
    } else {
-    console.log("The number isnot Prime");
+    console.log("Not a Prime");
    }
